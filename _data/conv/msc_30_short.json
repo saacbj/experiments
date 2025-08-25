@@ -1,0 +1,1052 @@
+[
+  [
+    0,
+    {
+      "role": "user",
+      "content": "I do not. But I do have a favorite meat since that is all I eat exclusively."
+    },
+    {
+      "role": "assistant",
+      "content": "What is your favorite meat to eat?"
+    },
+    {
+      "role": "user",
+      "content": "I would have to say its prime rib. Do you have any favorite foods?"
+    },
+    {
+      "role": "assistant",
+      "content": "I like chicken or macaroni and cheese."
+    },
+    {
+      "role": "user",
+      "content": "Do you have anything planned for today? I think I am going to do some canning."
+    },
+    {
+      "role": "assistant",
+      "content": "I am going to watch football. What are you canning?"
+    },
+    {
+      "role": "user",
+      "content": "I think I will can some jam. Do you also play footfall for fun?"
+    },
+    {
+      "role": "assistant",
+      "content": "If I have time outside of hunting and remodeling homes. Which is not much!"
+    }
+  ],
+  [
+    1,
+    {
+      "role": "user",
+      "content": "I work as an electrical engineer for a private company, I was trained in the millitary as such and I found out that I not only liked it, but I was good at it as well."
+    },
+    {
+      "role": "assistant",
+      "content": "Thats really impressive. I am a mechanical engineer so I can relate. What kind of stuff do you work on"
+    },
+    {
+      "role": "user",
+      "content": "I troubleshoot equipment that the company either sells to its customers, or that it rents to its customers. I also install and test their equipment, to ensure that it not only works, but it also is safe to use in a household."
+    },
+    {
+      "role": "assistant",
+      "content": "Right on, thats pretty cool. Like generators and motors or household items?"
+    },
+    {
+      "role": "user",
+      "content": "Generators for sure are some of the things I have worked on, but also wiring and how a system is connected as well. Its suprising how different some households can be wired than others in a given neighborhood."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh yes I can imagine. My cousin bought a house with all aluminum wiring. He spent a lot in bring it up to code."
+    },
+    {
+      "role": "user",
+      "content": "That must a been some kind of endeavor. Its great that people are aware of issues that arise in their homes, otherwise it can be very problematic in the future."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh it was. I cant imagine taking something like that on. But its definitely worth it to keep his home safe."
+    }
+  ],
+  [
+    2,
+    {
+      "role": "user",
+      "content": "I like relaxing places, like the beaches. I love new orleans, the entertainment is great there. That is where I'm going on my next vacation. What is your cousin going to do about the wiring in his house?"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for the suggestions. I am going to take a look for all place which is available for now. Glad to ask about my cousin, seems like he is having bad times, because of the conditions, those house problem etc. Hope he can figure it out soon. If he has questions about those wiring things, can I give your contact to him?"
+    },
+    {
+      "role": "user",
+      "content": "Yes I would be glad to help in any way I can. Does he live close to you?"
+    },
+    {
+      "role": "assistant",
+      "content": "You're so sweet thank you again. Unfortunately, we are not living close enough. If we are living close, I am for sure there things I can help to him"
+    },
+    {
+      "role": "user",
+      "content": "Well I'm sure I can help him get headed in the right direction with what to do. He might have to send me photos of some of the problems. Do you think it is really serious?"
+    },
+    {
+      "role": "assistant",
+      "content": "I guess that problems are serious, but I am not a professional one so I do not know about much. I am so glad to have you. You are experienced, professional, so there are nothing to worry about right?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I've fixed lots of electrical problems. I have some out of town work I'll be doing, maybe I can stop by his house if isn't too far."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you as always. First I need you contact my cousin then I'll let you know. I do not want to bother you. I know you have tons of things to do"
+    }
+  ],
+  [
+    3,
+    {
+      "role": "user",
+      "content": "Did you doctor say if it would be expensive or how effective it would be? I want to not have to worry about allergies when hiking."
+    },
+    {
+      "role": "assistant",
+      "content": "The doctor said that I would be very expensive, but the price depends on the insurance you have. I think you have great insurance"
+    },
+    {
+      "role": "user",
+      "content": "Yes, the health insurance my job provides is good. It would be hell if I had no other choice but to work with rowling while at the same time I couldn't afford the new allergy medicine."
+    },
+    {
+      "role": "assistant",
+      "content": "I've got to say I think it is amazing that you are working with jk rowling. How is that?"
+    },
+    {
+      "role": "user",
+      "content": "It was fun when it involved marketing for her books. However, I do not want to help her build her image. I hate her views, so it would be like torture for me."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh I totally get that, that didn't affect you at all when doing your marketing?"
+    },
+    {
+      "role": "user",
+      "content": "No, not at all. Hey, did your doctor say there were any side effects to that new allergy medication? I've been trying to be more conscious of how everything I put into my body affects me lately."
+    },
+    {
+      "role": "assistant",
+      "content": "We didn't get into too much detail, but in the email I sent you he gave you his number so you can call if you have any questions"
+    }
+  ],
+  [
+    4,
+    {
+      "role": "user",
+      "content": "Interesting. I'm a website designer. Pretty much spend all my time on the computer."
+    },
+    {
+      "role": "assistant",
+      "content": "That's cool my mom does the same thing"
+    },
+    {
+      "role": "user",
+      "content": "That's awesome. I have always had a love for technology."
+    },
+    {
+      "role": "assistant",
+      "content": "Tell me more about yourself"
+    },
+    {
+      "role": "user",
+      "content": "I really enjoy free diving, how about you, have any hobbies?"
+    },
+    {
+      "role": "assistant",
+      "content": "I enjoy hanging with my mother she's my best friend"
+    },
+    {
+      "role": "user",
+      "content": "That's nice. Moms are pretty cool too."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm also fascinated with mermaids"
+    }
+  ],
+  [
+    5,
+    {
+      "role": "user",
+      "content": "Thats really impressive. I am a mechanical engineer so I can relate. What kind of stuff do you work on"
+    },
+    {
+      "role": "assistant",
+      "content": "I troubleshoot equipment that the company either sells to its customers, or that it rents to its customers. I also install and test their equipment, to ensure that it not only works, but it also is safe to use in a household."
+    },
+    {
+      "role": "user",
+      "content": "Right on, thats pretty cool. Like generators and motors or household items?"
+    },
+    {
+      "role": "assistant",
+      "content": "Generators for sure are some of the things I have worked on, but also wiring and how a system is connected as well. Its suprising how different some households can be wired than others in a given neighborhood."
+    },
+    {
+      "role": "user",
+      "content": "Oh yes I can imagine. My cousin bought a house with all aluminum wiring. He spent a lot in bring it up to code."
+    },
+    {
+      "role": "assistant",
+      "content": "That must a been some kind of endeavor. Its great that people are aware of issues that arise in their homes, otherwise it can be very problematic in the future."
+    },
+    {
+      "role": "user",
+      "content": "Oh it was. I cant imagine taking something like that on. But its definitely worth it to keep his home safe."
+    },
+    {
+      "role": "assistant",
+      "content": "Especially if you plan on keeping it for a while, or if you have a family to take care of. I would want my house to be as safe as possible for my children."
+    }
+  ],
+  [
+    6,
+    {
+      "role": "user",
+      "content": "Thank you for the suggestions. I am going to take a look for all place which is available for now. Glad to ask about my cousin, seems like he is having bad times, because of the conditions, those house problem etc. Hope he can figure it out soon. If he has questions about those wiring things, can I give your contact to him?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes I would be glad to help in any way I can. Does he live close to you?"
+    },
+    {
+      "role": "user",
+      "content": "You're so sweet thank you again. Unfortunately, we are not living close enough. If we are living close, I am for sure there things I can help to him"
+    },
+    {
+      "role": "assistant",
+      "content": "Well I'm sure I can help him get headed in the right direction with what to do. He might have to send me photos of some of the problems. Do you think it is really serious?"
+    },
+    {
+      "role": "user",
+      "content": "I guess that problems are serious, but I am not a professional one so I do not know about much. I am so glad to have you. You are experienced, professional, so there are nothing to worry about right?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I've fixed lots of electrical problems. I have some out of town work I'll be doing, maybe I can stop by his house if isn't too far."
+    },
+    {
+      "role": "user",
+      "content": "Thank you as always. First I need you contact my cousin then I'll let you know. I do not want to bother you. I know you have tons of things to do"
+    },
+    {
+      "role": "assistant",
+      "content": "Ok that is fine. Have fun on your vacation and be sure to let me know where you decide to go."
+    }
+  ],
+  [
+    7,
+    {
+      "role": "user",
+      "content": "The doctor said that I would be very expensive, but the price depends on the insurance you have. I think you have great insurance"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, the health insurance my job provides is good. It would be hell if I had no other choice but to work with rowling while at the same time I couldn't afford the new allergy medicine."
+    },
+    {
+      "role": "user",
+      "content": "I've got to say I think it is amazing that you are working with jk rowling. How is that?"
+    },
+    {
+      "role": "assistant",
+      "content": "It was fun when it involved marketing for her books. However, I do not want to help her build her image. I hate her views, so it would be like torture for me."
+    },
+    {
+      "role": "user",
+      "content": "Oh I totally get that, that didn't affect you at all when doing your marketing?"
+    },
+    {
+      "role": "assistant",
+      "content": "No, not at all. Hey, did your doctor say there were any side effects to that new allergy medication? I've been trying to be more conscious of how everything I put into my body affects me lately."
+    },
+    {
+      "role": "user",
+      "content": "We didn't get into too much detail, but in the email I sent you he gave you his number so you can call if you have any questions"
+    },
+    {
+      "role": "assistant",
+      "content": "Great. Maybe your doctor and my doctor should exchange emails so they can send each other emails. Maybe at times my doctor knows something that your doctor doesn't know."
+    }
+  ],
+  [
+    8,
+    {
+      "role": "user",
+      "content": "Really? What shows? I like tv, it makes me forget I do not like my family"
+    },
+    {
+      "role": "assistant",
+      "content": "Wow, I wish I had a big family. I grew up in a very small town."
+    },
+    {
+      "role": "user",
+      "content": "I did too. I do not get along with mine. They have no class."
+    },
+    {
+      "role": "assistant",
+      "content": "Just drink some cola with rum and you'll forget about them!"
+    },
+    {
+      "role": "user",
+      "content": "Put the lime in the coconut as well..."
+    },
+    {
+      "role": "assistant",
+      "content": "Nah, plain cuba libre, that's what we drank yesterday at the theater."
+    },
+    {
+      "role": "user",
+      "content": "I prefer mojitos. Watermelon or cucumber."
+    },
+    {
+      "role": "assistant",
+      "content": "Those are really yummy too, but not my favorite."
+    }
+  ],
+  [
+    9,
+    {
+      "role": "user",
+      "content": "Haha easier said than done! Kind of like monitoring your blood sugar, how's that going for you lately? Do you feel well?"
+    },
+    {
+      "role": "assistant",
+      "content": "You are right my friend. It's still all over the place."
+    },
+    {
+      "role": "user",
+      "content": "How does that work? Is it based on what you eat or is hereditary? Would exercising more help at all?"
+    },
+    {
+      "role": "assistant",
+      "content": "They told me that I got it by eating wrong in the first place by eating bad most of my life."
+    },
+    {
+      "role": "user",
+      "content": "Oh, yeah, that's how my mom is. She's right at the point where if it gets any higher she would be technically diabetic and have to be put on medicine. Do you take any medicine for it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I use to but through time I was able to control it with diet. I think I got off kilter at christmas with all the deserts. Here we go bad habitslol"
+    },
+    {
+      "role": "user",
+      "content": "Oh, don't even get me started on how much I ate around the holidays, not just christmas day! Lol I think I gained at least 5 pounds from cookies alone!"
+    },
+    {
+      "role": "assistant",
+      "content": "You know I did literally gain 10 pounds between november and december."
+    }
+  ],
+  [
+    10,
+    {
+      "role": "user",
+      "content": "Yes, she is on meds and also following a diet. You need both to succeed. Do you start working out? That will hep."
+    },
+    {
+      "role": "assistant",
+      "content": "I really hate working... Probably bc I'm just so out of shape. I was hoping that diet would help control it enough so I wouldn't need to be on meds. Have you heard of the keto diet? Apparently it does wonders to help control blood sugar"
+    },
+    {
+      "role": "user",
+      "content": "I never heard of it but I will read about it because it could be usefull for my mom. How are your dogs doing?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes definitely look into it. Dogs are doing well but I havent been able to be as active with them since the weight gain. I just dont have the energy. How are your studies going? What is your degree in again?"
+    },
+    {
+      "role": "user",
+      "content": "It is going great. I have been working hard. My degree is in education. I want to teach in high school. What do you do for living?"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh that's wonderful. I was actually a teacher for many many years. I taught middle school and high school math classes. What subject do you want to teach?"
+    },
+    {
+      "role": "user",
+      "content": "I want to teah math also. That is great. Probably, you can give some advices."
+    },
+    {
+      "role": "assistant",
+      "content": "Any time!! First piece of advice.... Stop procrastinating about your exam!"
+    }
+  ],
+  [
+    11,
+    {
+      "role": "user",
+      "content": "That would be great. I don't like drinking coffee past the morning or I won't be able to fall asleep at 10pm!"
+    },
+    {
+      "role": "assistant",
+      "content": "I dont drink coffee actually! Ive switched to matcha- I heard its healthier!"
+    },
+    {
+      "role": "user",
+      "content": "I've tried matcha but I'm not a fan of how it looks green. I heard that drinking coffee daily (with less sugar) has health benefits for people!"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh really? I dont think I can drink black coffee. I also actually like green food! Makes the plate colorful"
+    },
+    {
+      "role": "user",
+      "content": "I can't drink black coffee either, I always need some kind of creamer and maybe a little sugar. I don't like the color green! What other green foods do you eat besides vegetables?"
+    },
+    {
+      "role": "assistant",
+      "content": "I've loved celery ever since my dad made me celery with peanut butter and raisins! Do you have a childhood favorite snack?"
+    },
+    {
+      "role": "user",
+      "content": "What type of food is celery considered? I've never heard of adding raisins to peanut butter and celery! I really like peanut butter and banana toast!"
+    },
+    {
+      "role": "assistant",
+      "content": "I love that too! Maybe we should start a bakery ourselves!"
+    }
+  ],
+  [
+    12,
+    {
+      "role": "user",
+      "content": "I have not. I can cook any word you want me to"
+    },
+    {
+      "role": "assistant",
+      "content": "What is your ethnicity? I'm white, and my hair is brown."
+    },
+    {
+      "role": "user",
+      "content": "I'm asian and have no hair."
+    },
+    {
+      "role": "assistant",
+      "content": "I love hairless asians. Do you like carrots?"
+    },
+    {
+      "role": "user",
+      "content": "I love carrots. I eat carrots like a horse."
+    },
+    {
+      "role": "assistant",
+      "content": "Are you male or female?"
+    },
+    {
+      "role": "user",
+      "content": "I work as a gourmet cook who also has a pitch perfect voice."
+    },
+    {
+      "role": "assistant",
+      "content": "I doubt that very much. You probably like to scream alone."
+    }
+  ],
+  [
+    13,
+    {
+      "role": "user",
+      "content": "You are right my friend. It's still all over the place."
+    },
+    {
+      "role": "assistant",
+      "content": "How does that work? Is it based on what you eat or is hereditary? Would exercising more help at all?"
+    },
+    {
+      "role": "user",
+      "content": "They told me that I got it by eating wrong in the first place by eating bad most of my life."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, yeah, that's how my mom is. She's right at the point where if it gets any higher she would be technically diabetic and have to be put on medicine. Do you take any medicine for it?"
+    },
+    {
+      "role": "user",
+      "content": "I use to but through time I was able to control it with diet. I think I got off kilter at christmas with all the deserts. Here we go bad habitslol"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, don't even get me started on how much I ate around the holidays, not just christmas day! Lol I think I gained at least 5 pounds from cookies alone!"
+    },
+    {
+      "role": "user",
+      "content": "You know I did literally gain 10 pounds between november and december."
+    },
+    {
+      "role": "assistant",
+      "content": "With spring coming soon, I'm sure there will be more ways to burn it off with outside activities. It's hard to lose weight being cooped up in the house all winter!"
+    }
+  ],
+  [
+    14,
+    {
+      "role": "user",
+      "content": "I really hate working... Probably bc I'm just so out of shape. I was hoping that diet would help control it enough so I wouldn't need to be on meds. Have you heard of the keto diet? Apparently it does wonders to help control blood sugar"
+    },
+    {
+      "role": "assistant",
+      "content": "I never heard of it but I will read about it because it could be usefull for my mom. How are your dogs doing?"
+    },
+    {
+      "role": "user",
+      "content": "Yes definitely look into it. Dogs are doing well but I havent been able to be as active with them since the weight gain. I just dont have the energy. How are your studies going? What is your degree in again?"
+    },
+    {
+      "role": "assistant",
+      "content": "It is going great. I have been working hard. My degree is in education. I want to teach in high school. What do you do for living?"
+    },
+    {
+      "role": "user",
+      "content": "Oh that's wonderful. I was actually a teacher for many many years. I taught middle school and high school math classes. What subject do you want to teach?"
+    },
+    {
+      "role": "assistant",
+      "content": "I want to teah math also. That is great. Probably, you can give some advices."
+    },
+    {
+      "role": "user",
+      "content": "Any time!! First piece of advice.... Stop procrastinating about your exam!"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, it is good advice. Are you working currently?"
+    }
+  ],
+  [
+    15,
+    {
+      "role": "user",
+      "content": "I dont drink coffee actually! Ive switched to matcha- I heard its healthier!"
+    },
+    {
+      "role": "assistant",
+      "content": "I've tried matcha but I'm not a fan of how it looks green. I heard that drinking coffee daily (with less sugar) has health benefits for people!"
+    },
+    {
+      "role": "user",
+      "content": "Oh really? I dont think I can drink black coffee. I also actually like green food! Makes the plate colorful"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't drink black coffee either, I always need some kind of creamer and maybe a little sugar. I don't like the color green! What other green foods do you eat besides vegetables?"
+    },
+    {
+      "role": "user",
+      "content": "I've loved celery ever since my dad made me celery with peanut butter and raisins! Do you have a childhood favorite snack?"
+    },
+    {
+      "role": "assistant",
+      "content": "What type of food is celery considered? I've never heard of adding raisins to peanut butter and celery! I really like peanut butter and banana toast!"
+    },
+    {
+      "role": "user",
+      "content": "I love that too! Maybe we should start a bakery ourselves!"
+    },
+    {
+      "role": "assistant",
+      "content": "Haha, we will have to discuss that far in the future when we're old!"
+    }
+  ],
+  [
+    16,
+    {
+      "role": "user",
+      "content": "What is your secret that you have"
+    },
+    {
+      "role": "assistant",
+      "content": "My parents don't know that I'm... Homosexual."
+    },
+    {
+      "role": "user",
+      "content": "How does that feel for you"
+    },
+    {
+      "role": "assistant",
+      "content": "Makes me secure with my manly hobby skills."
+    },
+    {
+      "role": "user",
+      "content": "I bet that it does"
+    },
+    {
+      "role": "assistant",
+      "content": "Anyway. What do you do?"
+    },
+    {
+      "role": "user",
+      "content": "I watch kids for a living"
+    },
+    {
+      "role": "assistant",
+      "content": "That is awesome. Do you like it?"
+    }
+  ],
+  [
+    17,
+    {
+      "role": "user",
+      "content": "I would love some tomatoes. They are my favorite vegetable..well technically fruit (but that is my environmental engineer background coming out, haha). What kind of food do you make with you vegetables?"
+    },
+    {
+      "role": "assistant",
+      "content": "I've been trying a lot of new recipes lately. I made a squash soup with fresh rosemary the other day that was delicious! Did you make it to the park to hike last weekend?"
+    },
+    {
+      "role": "user",
+      "content": "Yum!! That sounds so good! Yes I did, I went on a 5 mile hike. I was actually going to camp overnight but the weather got bad so I turned back. Maybe next time. But I did get some great photos! Would you like to see them?"
+    },
+    {
+      "role": "assistant",
+      "content": "I would love to! You're such a good photographer. I think you missed your calling. I wish I had more time to get outdoors these days. Work is killing me."
+    },
+    {
+      "role": "user",
+      "content": "Aww thank you. It's definitely my favorite hobby. I think I'll start a website showcasing my photos. What do you think?"
+    },
+    {
+      "role": "assistant",
+      "content": "I think that's a great idea. Or you could try to show at the art crawl they do every month. I don't think it costs very much to participate, and you might sell some prints. Then I could say I know a famous artist."
+    },
+    {
+      "role": "user",
+      "content": "Hey that is a fantastic idea! I'll even give you a discount! (haha just kidding - you can have some for free). I think you should try and take a break from work when you can and maybe we can go on a nice long hike together."
+    },
+    {
+      "role": "assistant",
+      "content": "I would love that. Work should slow down soon. I have a lot of move-out cleanings to do, which are only one time jobs. Maybe next weekend?"
+    }
+  ],
+  [
+    18,
+    {
+      "role": "user",
+      "content": "That's a great idea! What sorts of places would you be interested in seeing photos of?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'd like to see some places where I can do some diverse outdoor activities like swimming and fishing. Do you have any place that you can think of at this moment?"
+    },
+    {
+      "role": "user",
+      "content": "I can think of a few places in the mountains! There are some lovely spots in the appalachians where you can find lakes in the mountains."
+    },
+    {
+      "role": "assistant",
+      "content": "Although I have never been to the appalachians and don't know about that place very well, that sounds amazing. Do you think it is safe to swim in those lakes?"
+    },
+    {
+      "role": "user",
+      "content": "It's absolutely safe! The water stays cool so it's free of dangerous bacteria. Do you like to swim?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sounds cool. I didn't worry about getting infected by bacteria until you mentioned it, but that's a relief. Yes, I love swimming. Do you?"
+    },
+    {
+      "role": "user",
+      "content": "I definitely enjoy swimming, especially after a strenuous hike. It's a great way to cool off!"
+    },
+    {
+      "role": "assistant",
+      "content": "Definitely! Like you suggested, I think I should take a break from work sometime and go hiking. Thanks for the suggestion once again. Do you travel this weekend by the way?"
+    }
+  ],
+  [
+    19,
+    {
+      "role": "user",
+      "content": "Ill do you one even better, ill get some rebel ipas and cook some meatballs for you!"
+    },
+    {
+      "role": "assistant",
+      "content": "Make extra please! I'll feed some to my dog she loves them too."
+    },
+    {
+      "role": "user",
+      "content": "What is your dog's name?"
+    },
+    {
+      "role": "assistant",
+      "content": "Rebel. Because she's always rebelling against me. Speaking of which are any of your kids rebelling against you?"
+    },
+    {
+      "role": "user",
+      "content": "All of them! I have a teenager, obviously who never listens. Then 3 youngers ones, ages 8, 4, and 3."
+    },
+    {
+      "role": "assistant",
+      "content": "It's normal, especially with what's going on. I'd be a brooding mess. I think you're handling it well though."
+    },
+    {
+      "role": "user",
+      "content": "Thank you. I appreciate that. Its been rough but I am making it through. Maybe I can drop the kids off with their dad for a weekend and stay in your guest house and have a relaxing weekend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Relaxing? I don't think so. We're going to have a pool party! Gotta keep you young at heart."
+    }
+  ],
+  [
+    20,
+    {
+      "role": "user",
+      "content": "Ok I see, that's your halloween costume"
+    },
+    {
+      "role": "assistant",
+      "content": "What do you like to read? I like rock alternative music."
+    },
+    {
+      "role": "user",
+      "content": "I like anything to do with mystery"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh no it isn't it is my car lol"
+    },
+    {
+      "role": "user",
+      "content": "Lol, oh I see, taught you own it"
+    },
+    {
+      "role": "assistant",
+      "content": "Me also what is your favorite?"
+    },
+    {
+      "role": "user",
+      "content": "Well I like sherlock holmes and others"
+    },
+    {
+      "role": "assistant",
+      "content": "I do own it I think there is confusion?"
+    }
+  ],
+  [
+    21,
+    {
+      "role": "user",
+      "content": "I've been trying a lot of new recipes lately. I made a squash soup with fresh rosemary the other day that was delicious! Did you make it to the park to hike last weekend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yum!! That sounds so good! Yes I did, I went on a 5 mile hike. I was actually going to camp overnight but the weather got bad so I turned back. Maybe next time. But I did get some great photos! Would you like to see them?"
+    },
+    {
+      "role": "user",
+      "content": "I would love to! You're such a good photographer. I think you missed your calling. I wish I had more time to get outdoors these days. Work is killing me."
+    },
+    {
+      "role": "assistant",
+      "content": "Aww thank you. It's definitely my favorite hobby. I think I'll start a website showcasing my photos. What do you think?"
+    },
+    {
+      "role": "user",
+      "content": "I think that's a great idea. Or you could try to show at the art crawl they do every month. I don't think it costs very much to participate, and you might sell some prints. Then I could say I know a famous artist."
+    },
+    {
+      "role": "assistant",
+      "content": "Hey that is a fantastic idea! I'll even give you a discount! (haha just kidding - you can have some for free). I think you should try and take a break from work when you can and maybe we can go on a nice long hike together."
+    },
+    {
+      "role": "user",
+      "content": "I would love that. Work should slow down soon. I have a lot of move-out cleanings to do, which are only one time jobs. Maybe next weekend?"
+    },
+    {
+      "role": "assistant",
+      "content": "That works for me! There's a nice little hike to a waterfall that I'd love to do. We can take some cool photos too!"
+    }
+  ],
+  [
+    22,
+    {
+      "role": "user",
+      "content": "I'd like to see some places where I can do some diverse outdoor activities like swimming and fishing. Do you have any place that you can think of at this moment?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can think of a few places in the mountains! There are some lovely spots in the appalachians where you can find lakes in the mountains."
+    },
+    {
+      "role": "user",
+      "content": "Although I have never been to the appalachians and don't know about that place very well, that sounds amazing. Do you think it is safe to swim in those lakes?"
+    },
+    {
+      "role": "assistant",
+      "content": "It's absolutely safe! The water stays cool so it's free of dangerous bacteria. Do you like to swim?"
+    },
+    {
+      "role": "user",
+      "content": "Sounds cool. I didn't worry about getting infected by bacteria until you mentioned it, but that's a relief. Yes, I love swimming. Do you?"
+    },
+    {
+      "role": "assistant",
+      "content": "I definitely enjoy swimming, especially after a strenuous hike. It's a great way to cool off!"
+    },
+    {
+      "role": "user",
+      "content": "Definitely! Like you suggested, I think I should take a break from work sometime and go hiking. Thanks for the suggestion once again. Do you travel this weekend by the way?"
+    },
+    {
+      "role": "assistant",
+      "content": "As a matter of fact, yes! I'm taking a brief road trip, and I'm hoping to get some good pictures taken. Maybe those will go on the website!"
+    }
+  ],
+  [
+    23,
+    {
+      "role": "user",
+      "content": "Make extra please! I'll feed some to my dog she loves them too."
+    },
+    {
+      "role": "assistant",
+      "content": "What is your dog's name?"
+    },
+    {
+      "role": "user",
+      "content": "Rebel. Because she's always rebelling against me. Speaking of which are any of your kids rebelling against you?"
+    },
+    {
+      "role": "assistant",
+      "content": "All of them! I have a teenager, obviously who never listens. Then 3 youngers ones, ages 8, 4, and 3."
+    },
+    {
+      "role": "user",
+      "content": "It's normal, especially with what's going on. I'd be a brooding mess. I think you're handling it well though."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. I appreciate that. Its been rough but I am making it through. Maybe I can drop the kids off with their dad for a weekend and stay in your guest house and have a relaxing weekend?"
+    },
+    {
+      "role": "user",
+      "content": "Relaxing? I don't think so. We're going to have a pool party! Gotta keep you young at heart."
+    },
+    {
+      "role": "assistant",
+      "content": "As long as you make some good margaritas, I am always down to have a good time! A pool party would a great break."
+    }
+  ],
+  [
+    24,
+    {
+      "role": "user",
+      "content": "I've a black car, purse, wear all black."
+    },
+    {
+      "role": "assistant",
+      "content": "Maybe I can borrow something as I am packing to visit my dad in china."
+    },
+    {
+      "role": "user",
+      "content": "Wow, does he live there or work?"
+    },
+    {
+      "role": "assistant",
+      "content": "Live. Moved there about ten years ago for a computer tech job."
+    },
+    {
+      "role": "user",
+      "content": "Have you visited him there before?"
+    },
+    {
+      "role": "assistant",
+      "content": "Once. You cannot even throw a gum wrapper or you can get arrested."
+    },
+    {
+      "role": "user",
+      "content": "Sounds a bit scary. I ve never been."
+    },
+    {
+      "role": "assistant",
+      "content": "Well not too much crime there, but a lot of people."
+    }
+  ],
+  [
+    25,
+    {
+      "role": "user",
+      "content": "Sometimes it does get tiring. Are you getting enough sun still?"
+    },
+    {
+      "role": "assistant",
+      "content": "Eh, it's been pretty cloudy lately. It's been snowing several days a week."
+    },
+    {
+      "role": "user",
+      "content": "Is your car handling the snow well?"
+    },
+    {
+      "role": "assistant",
+      "content": "It's a little sedan, so it"
+    },
+    {
+      "role": "user",
+      "content": "I see. And how's your wheelchair handling in snowy conditions?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sorry, sent that last one a bit early by accidentally hitting send! The wheelchair doesn't do too well in the snow and neither does the sedan. What kind of vehicle to you drive?"
+    },
+    {
+      "role": "user",
+      "content": "I drive a truck but it's not as snowy over here these days. I hope you're getting help with the chair."
+    },
+    {
+      "role": "assistant",
+      "content": "I wish I had a truck. The city side walks are usually pretty good. The snow is bad on the side walks in the neighborhoods."
+    }
+  ],
+  [
+    26,
+    {
+      "role": "user",
+      "content": "Yes, my friend can contribute some of the start-up costs, because he has a pretty good trust fund. It would be nice if I could do it on my own."
+    },
+    {
+      "role": "assistant",
+      "content": "I see... I think opening a company with your friend would be a good idea for money wise. However, I have heard that some people get into trouble with their friends when working together, which was why I asked about opening a company by yourself. Don't you have any concerns like that?"
+    },
+    {
+      "role": "user",
+      "content": "I don't really have many concerns about it. Have you ever considered going into business with a friend or by yourself?"
+    },
+    {
+      "role": "assistant",
+      "content": "It's great to hear that you don't really have concerns about it. Yes, I wish I have my own company but I only have some ideas at this moment and I need some time to develop the ideas."
+    },
+    {
+      "role": "user",
+      "content": "That sounds interesting. What kinds of businesses do you have an interest in?"
+    },
+    {
+      "role": "assistant",
+      "content": "Do you remember that I said I am disabled? Although I can drive on my own, I guess there are many people who cannot drive due to their handicaps. So I am thinking of having a transportation service for those who need some help with traveling."
+    },
+    {
+      "role": "user",
+      "content": "That sounds like it could be a profitable business. So many disabled people need transportation. It's good that you have that sedan you're friend got you."
+    },
+    {
+      "role": "assistant",
+      "content": "I may use my own sedan when starting the business because I don't have enough money for now. However, I may loan some money later to purchase a bigger car or two to accommodate passengers and their wheelchairs too."
+    }
+  ],
+  [
+    27,
+    {
+      "role": "user",
+      "content": "I would love to make pottery and mosaic's on tables. I think that I could have store with these things that I make as well as essential oil candles made with soy that I would learn to make. I could add new things as I make them."
+    },
+    {
+      "role": "assistant",
+      "content": "Wow, that's awesome! I'm always a bit envious of those who can create beautiful pieces of art. My art is making a pizza....lol! But I love it, and I guess that's what matters. So have you ever been to italy?"
+    },
+    {
+      "role": "user",
+      "content": "I make pizza every saturday night for my family. We love it. I have never been to italy, but would love to go at some point."
+    },
+    {
+      "role": "assistant",
+      "content": "I did visit there once, but the flight there is so long. I would love to visit again someday, however. Where all have you traveled?"
+    },
+    {
+      "role": "user",
+      "content": "I have been to vegas, tortola, half moon kay, nassau, and st. Thomas. I have also been to florida a couple of times."
+    },
+    {
+      "role": "assistant",
+      "content": "I think that's great. I have been on a cruise and visited some places during that. Would love to take a road trip out west, and see yellowstone, the grand canyon, and vegas. Did you like vegas?"
+    },
+    {
+      "role": "user",
+      "content": "I loved vegas. We spent a week there. I loved the sites and the lights. It is a very pretty place to visit with lots to see. Don't get sucked in my just the casino's. There is so much more to it than just that."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I always wondered about that. All you ever seem to hear about is the gambling aspect, and I'm not a big gambler. So its nice to hear I can enjoy without that."
+    }
+  ],
+  [
+    28,
+    {
+      "role": "user",
+      "content": "Do you own your own company"
+    },
+    {
+      "role": "assistant",
+      "content": "No still in school work at pizza hut part time"
+    },
+    {
+      "role": "user",
+      "content": "Do you get free pizza"
+    },
+    {
+      "role": "assistant",
+      "content": "No but I do get a good deal."
+    },
+    {
+      "role": "user",
+      "content": "That is a good start"
+    },
+    {
+      "role": "assistant",
+      "content": "Yeah it is. I really hope they have a frat party again soon"
+    },
+    {
+      "role": "user",
+      "content": "I used to party a lot"
+    },
+    {
+      "role": "assistant",
+      "content": "It is fun I can't get enough"
+    }
+  ],
+  [
+    29,
+    {
+      "role": "user",
+      "content": "Eh, it's been pretty cloudy lately. It's been snowing several days a week."
+    },
+    {
+      "role": "assistant",
+      "content": "Is your car handling the snow well?"
+    },
+    {
+      "role": "user",
+      "content": "It's a little sedan, so it"
+    },
+    {
+      "role": "assistant",
+      "content": "I see. And how's your wheelchair handling in snowy conditions?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, sent that last one a bit early by accidentally hitting send! The wheelchair doesn't do too well in the snow and neither does the sedan. What kind of vehicle to you drive?"
+    },
+    {
+      "role": "assistant",
+      "content": "I drive a truck but it's not as snowy over here these days. I hope you're getting help with the chair."
+    },
+    {
+      "role": "user",
+      "content": "I wish I had a truck. The city side walks are usually pretty good. The snow is bad on the side walks in the neighborhoods."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand. That sounds difficult but I know you'll manage."
+    }
+  ]
+]

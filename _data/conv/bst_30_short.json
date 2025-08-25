@@ -1,0 +1,1037 @@
+[
+  [
+    0,
+    {
+      "role": "user",
+      "content": "After I am done with school I plan to have a family."
+    },
+    {
+      "role": "assistant",
+      "content": "that is great! you will be ready"
+    },
+    {
+      "role": "user",
+      "content": "I hope so, how old are your kids?"
+    },
+    {
+      "role": "assistant",
+      "content": "5 & 7.  they take up a lot of my time"
+    },
+    {
+      "role": "user",
+      "content": "I would imagine. I am sure they a great kids."
+    },
+    {
+      "role": "assistant",
+      "content": "luckily, they love flowers just as much as I do.  we spend a lot of time in the garden"
+    },
+    {
+      "role": "user",
+      "content": "I wish I had more time to do stuff like that. Medical school is exhausting. "
+    },
+    {
+      "role": "assistant",
+      "content": "sounds like it. have you gotten any acting jobs, though?"
+    }
+  ],
+  [
+    1,
+    {
+      "role": "user",
+      "content": "Mmm That sounds delicious right now."
+    },
+    {
+      "role": "assistant",
+      "content": "What do you like to do?"
+    },
+    {
+      "role": "user",
+      "content": "Well I like tattoos and piercings, I am working on my next one right now."
+    },
+    {
+      "role": "assistant",
+      "content": "piercings are cool . i do not have any tattoos though. Too scared. I want some"
+    },
+    {
+      "role": "user",
+      "content": "What would you get?"
+    },
+    {
+      "role": "assistant",
+      "content": "Maybe something for my kids. I've always wanted an anarchy symbol."
+    },
+    {
+      "role": "user",
+      "content": "Haha that is a cool idea."
+    },
+    {
+      "role": "assistant",
+      "content": "I like to think I'm cool too. Hopefully one day."
+    }
+  ],
+  [
+    2,
+    {
+      "role": "user",
+      "content": "My snakes are both pythons. I feed them mice. Do you have any pets?"
+    },
+    {
+      "role": "assistant",
+      "content": "No, but I would love to have a cat for it to hunt mice in my house lol"
+    },
+    {
+      "role": "user",
+      "content": "You have mice running around your house? Yikes! I think I'd rather have the barking dogs than that."
+    },
+    {
+      "role": "assistant",
+      "content": "Lol, but they do make great companions at times.I give them bread and they leave me alone for the most part. "
+    },
+    {
+      "role": "user",
+      "content": "Have you given them names? If not, maybe we can come up with some."
+    },
+    {
+      "role": "assistant",
+      "content": "i just called them all Jerry, Big Jerry, Always hungry Jerry and then there's the Tiny Jerry. "
+    },
+    {
+      "role": "user",
+      "content": "Now you really do need to get a cat and call him Tom."
+    },
+    {
+      "role": "assistant",
+      "content": "Yep that would completely the collection! I am widow so I need all the companions I can get haha"
+    }
+  ],
+  [
+    3,
+    {
+      "role": "user",
+      "content": "i do not think so, what about you?"
+    },
+    {
+      "role": "assistant",
+      "content": "i lost my driver's liscense, ufortunately, but i would if i could"
+    },
+    {
+      "role": "user",
+      "content": "how did you lose it?"
+    },
+    {
+      "role": "assistant",
+      "content": "i did some bad stuff, but that's not important"
+    },
+    {
+      "role": "user",
+      "content": "im saving up to buy a new camera to take pictures of people who lost their licenses actually"
+    },
+    {
+      "role": "assistant",
+      "content": "do you take pictures of people with curly hair like mine?"
+    },
+    {
+      "role": "user",
+      "content": "no, only people with long hair like mine"
+    },
+    {
+      "role": "assistant",
+      "content": "well, you got to do you, brother. i'm proud of you anyway!"
+    }
+  ],
+  [
+    4,
+    {
+      "role": "user",
+      "content": "I work at a ski resort. I love it!"
+    },
+    {
+      "role": "assistant",
+      "content": "I heard Mount Tom Ski Area in Holyoke, Mass is a great resort to visit"
+    },
+    {
+      "role": "user",
+      "content": "I have never been but I have heard the same. I love snow and the mountains."
+    },
+    {
+      "role": "assistant",
+      "content": "I wish I could enjoy the snow and mountains, I would be afraid I could not answer my cellphone!"
+    },
+    {
+      "role": "user",
+      "content": "Haha, these days it is amazing where you can get cell service."
+    },
+    {
+      "role": "assistant",
+      "content": "i agree ! that is the main reason I have a phone !"
+    },
+    {
+      "role": "user",
+      "content": "Do you have any plans this weekend?"
+    },
+    {
+      "role": "assistant",
+      "content": "No plans yet, I'm just happy to sleep in for once!"
+    }
+  ],
+  [
+    5,
+    {
+      "role": "user",
+      "content": "What do you mean children?"
+    },
+    {
+      "role": "assistant",
+      "content": "They are food, shelter, child care, health care, transportation, and utilities."
+    },
+    {
+      "role": "user",
+      "content": "Ok, Im pretty confused as to what you mean, but that sounds like a lot."
+    },
+    {
+      "role": "assistant",
+      "content": "it is a lot to take care of because kids are a lot of responsibility"
+    },
+    {
+      "role": "user",
+      "content": "I see. Well good luck with that, I wouldn't know because I don't have kids yet."
+    },
+    {
+      "role": "assistant",
+      "content": "oh well thank you . what else should i know about you ?"
+    },
+    {
+      "role": "user",
+      "content": "Well, Im going through some drama right now with my sister in law, she hates me. "
+    },
+    {
+      "role": "assistant",
+      "content": "Family conflict is always hard.  Maybe you should be the bigger man and work for peace "
+    }
+  ],
+  [
+    6,
+    {
+      "role": "user",
+      "content": "how would the principal feel about you going behind his back?"
+    },
+    {
+      "role": "assistant",
+      "content": "Not sure, I suppose I could sit down and discuss it with him. What kind of work do you do?"
+    },
+    {
+      "role": "user",
+      "content": "i'm a garbage man, although i'm a woman. my boss drives the truck, but i'm more qualified, really."
+    },
+    {
+      "role": "assistant",
+      "content": "I've never driven a truck, only small vehicles! How's that working out for you? My two dogs would love to ride along if I did that"
+    },
+    {
+      "role": "user",
+      "content": "dogs would for sure love a big truck full of garbage. i thik i'm the top 20 or so best garbage men in the area"
+    },
+    {
+      "role": "assistant",
+      "content": "oh wow that is impressive . must be an extremely difficult job ."
+    },
+    {
+      "role": "user",
+      "content": "no.literally anyone could do it. you just pick up garbage. it's not as easy as teaching, im sure, buts ittakes no skill"
+    },
+    {
+      "role": "assistant",
+      "content": "If you have patience teaching is great but they test your nerves every day"
+    }
+  ],
+  [
+    7,
+    {
+      "role": "user",
+      "content": "I got really joyful when my dad got me my first vehicle. It was just a happy feeling"
+    },
+    {
+      "role": "assistant",
+      "content": "Yeah. I know that feeling., although I had to buy my own."
+    },
+    {
+      "role": "user",
+      "content": "The vehicle was exactly what I wanted, a newer model sports car."
+    },
+    {
+      "role": "assistant",
+      "content": "That was a good choice, What kind of car was it?"
+    },
+    {
+      "role": "user",
+      "content": "A Mustang GT, convertible"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice! Too bad you couldn't get  your hands on a 1963 Mustang II. That's my favorite car."
+    },
+    {
+      "role": "user",
+      "content": "A few years ago I helped with a restoration on a 67. It was absolutely gorgeous."
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds awesome. Did you restore it with your dad?"
+    }
+  ],
+  [
+    8,
+    {
+      "role": "user",
+      "content": "hahah that's funny. I believe in you though, you can overcome that. "
+    },
+    {
+      "role": "assistant",
+      "content": "it's like a chorus line. the musical with actor michael douglass. have you seen it/"
+    },
+    {
+      "role": "user",
+      "content": "No I haven't, I don't watch movies very often. Im usually out at clubs people watching."
+    },
+    {
+      "role": "assistant",
+      "content": "when do you think you'll get a chance to catch up on some film? I love dancing, but when I'm not treading the boards, I love watching tv"
+    },
+    {
+      "role": "user",
+      "content": "Probably not for a while. I just bought a new jaguar and I try to get out and just drive around and show it off as much as possible. "
+    },
+    {
+      "role": "assistant",
+      "content": "wow, i love animals. What does it eat?"
+    },
+    {
+      "role": "user",
+      "content": "Haha the car not the animal. A jaguar would eat me as I tried to feed it for sure."
+    },
+    {
+      "role": "assistant",
+      "content": "do you hink people like looking at you r car? I heard they are hard to maintain"
+    }
+  ],
+  [
+    9,
+    {
+      "role": "user",
+      "content": "Are you famous? I'm kind of famous in my own town."
+    },
+    {
+      "role": "assistant",
+      "content": "yes, i am famous. what type of music do you listen to? "
+    },
+    {
+      "role": "user",
+      "content": "My favorite singer is Meatloaf, are you a fan of his?"
+    },
+    {
+      "role": "assistant",
+      "content": "never heard of him, i only listen to country music honestly "
+    },
+    {
+      "role": "user",
+      "content": "Not only is Meatloaf a great singer, but it's also a delicious food. Can't beat that combo."
+    },
+    {
+      "role": "assistant",
+      "content": "Food is the gateway to the soul."
+    },
+    {
+      "role": "user",
+      "content": "And meatloaf is the express train to my heart. Nothing like a little hamburg and spices to get things going."
+    },
+    {
+      "role": "assistant",
+      "content": "that sounds delicious "
+    }
+  ],
+  [
+    10,
+    {
+      "role": "user",
+      "content": "I am trying to do professional photography."
+    },
+    {
+      "role": "assistant",
+      "content": "Wow. I love writing fiction creatively, and that would make a great story. What sort of phone did you start out with?"
+    },
+    {
+      "role": "user",
+      "content": "You know just a flip phone haha. Are you working on a book right now?"
+    },
+    {
+      "role": "assistant",
+      "content": "It's about these pills that reveal the world is full of dinosaurs, but you can't ee them without the pills, so you don't know where they are"
+    },
+    {
+      "role": "user",
+      "content": "Oh! Interesting! That would be scary."
+    },
+    {
+      "role": "assistant",
+      "content": "it's a drama, actually, and the dinosaurs don;t bother anyone. would you ever take a picture of something like that?"
+    },
+    {
+      "role": "user",
+      "content": "Of course! That would make my career!"
+    },
+    {
+      "role": "assistant",
+      "content": "oh cool. what sort of shutter speed would u set it on?"
+    }
+  ],
+  [
+    11,
+    {
+      "role": "user",
+      "content": "Amen to that. Anyway, do you like to read?"
+    },
+    {
+      "role": "assistant",
+      "content": "I do like reading. Lately I've been reading about Lightning McQueen. Do you like the movie \"Cars\"?"
+    },
+    {
+      "role": "user",
+      "content": "Is that the animated movie?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yeah they have made a few of them. I like them so much I named my cat mater after the tow truck in the film."
+    },
+    {
+      "role": "user",
+      "content": "Oh thats really cool. Yea I love those movies a lot! Whats your favorite food?"
+    },
+    {
+      "role": "assistant",
+      "content": "I love chicken, and Chinese food. Well, just about any food actually. How about you?"
+    },
+    {
+      "role": "user",
+      "content": "I love pizza, its definitely my favorite of all time. Chinese is great too though. Have you had chinese pizza before?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes! The Chinese restaurant down the street has it. It's pretty good."
+    }
+  ],
+  [
+    12,
+    {
+      "role": "user",
+      "content": "i think the crystals i dabble with can change your sub personality "
+    },
+    {
+      "role": "assistant",
+      "content": "oh wow I hear that stuff is bad for you"
+    },
+    {
+      "role": "user",
+      "content": "im addicted to the power of them"
+    },
+    {
+      "role": "assistant",
+      "content": "I really can't stop eating sweets myself"
+    },
+    {
+      "role": "user",
+      "content": "you will stop when you get diabetes"
+    },
+    {
+      "role": "assistant",
+      "content": "Yeah I was told the same thing, but I'm addicted. unlucky"
+    },
+    {
+      "role": "user",
+      "content": "meditation will dissolve all addictions "
+    },
+    {
+      "role": "assistant",
+      "content": "I will try medicine first "
+    }
+  ],
+  [
+    13,
+    {
+      "role": "user",
+      "content": "That sounds awesome!"
+    },
+    {
+      "role": "assistant",
+      "content": "did you ever play sports in school?"
+    },
+    {
+      "role": "user",
+      "content": "Nah. Never had the discipline. I'd always rather be with my friends."
+    },
+    {
+      "role": "assistant",
+      "content": "i played football and basketball in college and i wouldnt trade that experience for the world "
+    },
+    {
+      "role": "user",
+      "content": "What did you study in college?"
+    },
+    {
+      "role": "assistant",
+      "content": "Criminology, what about you?"
+    },
+    {
+      "role": "user",
+      "content": "Currently political science, but I'm thinking about switching."
+    },
+    {
+      "role": "assistant",
+      "content": "what are you thinking of switching to?"
+    }
+  ],
+  [
+    14,
+    {
+      "role": "user",
+      "content": "No why would you be on my flight a couple weeks from now? They are from another planet, most likely Jupiter."
+    },
+    {
+      "role": "assistant",
+      "content": "sounds like i'd be better off just cancelling our trip and going back to finish my degree. what do you think?"
+    },
+    {
+      "role": "user",
+      "content": "Would you? I think that is for the best. It's safer."
+    },
+    {
+      "role": "assistant",
+      "content": "do you have to take off your shoes at airports still? I know like in japan you probably do, but is it everywhere?"
+    },
+    {
+      "role": "user",
+      "content": "I think so, what Im not sure about though is if they every give them back to you. I think they might just mail them to you"
+    },
+    {
+      "role": "assistant",
+      "content": "yeah, there's a fed ex in there for that. Where are you going on your trip?"
+    },
+    {
+      "role": "user",
+      "content": "I am going to Japan actually but then Im flying right back. I'm really just going for the flying experience."
+    },
+    {
+      "role": "assistant",
+      "content": "Smart. You don't want your airline miles to expire. Are you getting a meal? Maybe a hot towl?"
+    }
+  ],
+  [
+    15,
+    {
+      "role": "user",
+      "content": "There is new footage of an alien ship plying over the ocean."
+    },
+    {
+      "role": "assistant",
+      "content": "wow that would be exciting and scary ."
+    },
+    {
+      "role": "user",
+      "content": "I always knew they watched over us."
+    },
+    {
+      "role": "assistant",
+      "content": "Something like the Aliens in the film franchise?"
+    },
+    {
+      "role": "user",
+      "content": "Yes it is shocking to watch."
+    },
+    {
+      "role": "assistant",
+      "content": "yea i have seen some interesting things ."
+    },
+    {
+      "role": "user",
+      "content": "Tell me! I am always interested in UFO stories."
+    },
+    {
+      "role": "assistant",
+      "content": "Aliens came out 1986."
+    }
+  ],
+  [
+    16,
+    {
+      "role": "user",
+      "content": "That's awesome! I love Robert Frost's books. You must like to read, yes?"
+    },
+    {
+      "role": "assistant",
+      "content": "i do , I am an aspiring poet."
+    },
+    {
+      "role": "user",
+      "content": "Great to hear. I hope to read your works someday! have you been published in anything yet?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes a few things, they are doing well. "
+    },
+    {
+      "role": "user",
+      "content": "That's good. I used to write some things when I was in school, but nothing serious. Always dreamed of getting a book published, though."
+    },
+    {
+      "role": "assistant",
+      "content": "I am sure if you kept at it you would be very successful."
+    },
+    {
+      "role": "user",
+      "content": "Maybe one day I'll start again. I work too much right now and don't have a whole lot of time to devote to it."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sure you will one day! What do you do?"
+    }
+  ],
+  [
+    17,
+    {
+      "role": "user",
+      "content": "Sounds like good memories"
+    },
+    {
+      "role": "assistant",
+      "content": "yes , i sure do remember those days and how much fun we all had ! !"
+    },
+    {
+      "role": "user",
+      "content": "My hair was so red back then "
+    },
+    {
+      "role": "assistant",
+      "content": "is red your favorite color?"
+    },
+    {
+      "role": "user",
+      "content": "its alright as long it is bright red"
+    },
+    {
+      "role": "assistant",
+      "content": "i think my favorite color is orange because it can turn into any shade of red or range i find"
+    },
+    {
+      "role": "user",
+      "content": "I like the color of yellow reminds me of corn on the farm"
+    },
+    {
+      "role": "assistant",
+      "content": "is corn one of your favorite foods?"
+    }
+  ],
+  [
+    18,
+    {
+      "role": "user",
+      "content": "I have had a dog that had curly hair. It was a mixed poodle and it was red. Really active animal she was. "
+    },
+    {
+      "role": "assistant",
+      "content": "My aunt had a poodle greyhound mix. She was gorgeous"
+    },
+    {
+      "role": "user",
+      "content": "That mix of dog breeds sounds cool. Was she tall like the greyhound or short like the poodle? You get all kinds of unique traits "
+    },
+    {
+      "role": "assistant",
+      "content": "Tall and pretty grey coat"
+    },
+    {
+      "role": "user",
+      "content": "Beautiful type of dog. We had one growing up as a kid. Hard to keep him contained"
+    },
+    {
+      "role": "assistant",
+      "content": "I loved that dog and I'm a cat person."
+    },
+    {
+      "role": "user",
+      "content": "I feel you. Cats are sometimes easier to have around. We have four of them now haha. "
+    },
+    {
+      "role": "assistant",
+      "content": "Cool. We are going to adopt when we move soon."
+    }
+  ],
+  [
+    19,
+    {
+      "role": "user",
+      "content": "Baking is so much fun"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes it is! Plus it usually works with my vegetarian diet, haha."
+    },
+    {
+      "role": "user",
+      "content": "thats a good diet to be on.  What is your favorite vegetarian meal>?"
+    },
+    {
+      "role": "assistant",
+      "content": "Any kind of pasta, it's my weakness."
+    },
+    {
+      "role": "user",
+      "content": "I love pasta"
+    },
+    {
+      "role": "assistant",
+      "content": "I do too.  I have a fantastic recipe with alfredo sauce."
+    },
+    {
+      "role": "user",
+      "content": "alfredo is the best do you make it from scratch?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, everything from scratch. It is an old recipe."
+    }
+  ],
+  [
+    20,
+    {
+      "role": "user",
+      "content": "Haha yea, I understand that. I am actually a writer so I have to do a lot of research on such things unfortunately "
+    },
+    {
+      "role": "assistant",
+      "content": "Ah, yes, the lucrative writing career. (Just kidding), What types of stuff do you write?"
+    },
+    {
+      "role": "user",
+      "content": "Haha well, passion is passion, money or not. I write horror and mystery novels mostly. Do you enjoy reading?"
+    },
+    {
+      "role": "assistant",
+      "content": "i do , i love to read dean koontz. He's my favorite."
+    },
+    {
+      "role": "user",
+      "content": "Yes I love koontz as well, He was a big inspiration for me growing up"
+    },
+    {
+      "role": "assistant",
+      "content": "That's very cool. What other authors inspired you?"
+    },
+    {
+      "role": "user",
+      "content": "Stephen King, etc. Mostly horror authors. Do you have any hobbies?"
+    },
+    {
+      "role": "assistant",
+      "content": "Other than collecting stamps, I play a lot of tennis. How about you?"
+    }
+  ],
+  [
+    21,
+    {
+      "role": "user",
+      "content": "In today's world no one will take pity on me. The pain is excruciating. I think I need pain killers too"
+    },
+    {
+      "role": "assistant",
+      "content": "Seriously, I'm also uninsured, wanted to move to Vegas but the rates there for healthcare were worse than my place, I'm sorry "
+    },
+    {
+      "role": "user",
+      "content": "I am so sorry to hear that you are in the same boat as me. We really need insurance."
+    },
+    {
+      "role": "assistant",
+      "content": "Would be nice for sure, but not too much we can do I guess, besides the injury anything good happen recently?"
+    },
+    {
+      "role": "user",
+      "content": "Well My mate proposed to me yesterday, I am so happy"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh wow that's awesome to hear! A big congrats to the both of you!"
+    },
+    {
+      "role": "user",
+      "content": "Thanks a lot. we would like to have five children."
+    },
+    {
+      "role": "assistant",
+      "content": "Wow, five now that's going to be a fun family, my wife and I are thinking of adopting ourselves."
+    }
+  ],
+  [
+    22,
+    {
+      "role": "user",
+      "content": "I like RPG. Something to make me feel less lonely."
+    },
+    {
+      "role": "assistant",
+      "content": "I like those games too! Sometimes I like to just go off and pretend I am someone else and have fun in those games."
+    },
+    {
+      "role": "user",
+      "content": "Exactly! The games today are amazing!"
+    },
+    {
+      "role": "assistant",
+      "content": "They really are. It's amazing how far the games have come since back in the day. i still like classic games, too."
+    },
+    {
+      "role": "user",
+      "content": "Same here, sometimes I play mario kart."
+    },
+    {
+      "role": "assistant",
+      "content": "Mario Kart was a great game! I was so good at dropping those bananas! Nintendo has become one of the most influential video game companies in the industry!"
+    },
+    {
+      "role": "user",
+      "content": "It really has. The CEO seems like a good person."
+    },
+    {
+      "role": "assistant",
+      "content": "Yeah, they really seem to care about the games they put out."
+    }
+  ],
+  [
+    23,
+    {
+      "role": "user",
+      "content": "no i do not have much time to fish at lakes because i am busy at the large law firm i work at"
+    },
+    {
+      "role": "assistant",
+      "content": "I love law. I had jury duty once and the law seemed so official. I'm jealous."
+    },
+    {
+      "role": "user",
+      "content": "what are you jealous of?"
+    },
+    {
+      "role": "assistant",
+      "content": "how you must interract with people. All the cool rules and the way you can approach the bench. law clerks, stenographers, it rules."
+    },
+    {
+      "role": "user",
+      "content": "you should try to get a job in law then"
+    },
+    {
+      "role": "assistant",
+      "content": "If there was any law and order around the isolated cabin and the lake where I fish, I would get into it."
+    },
+    {
+      "role": "user",
+      "content": "ahh it sounds like you are really attached to your cabin "
+    },
+    {
+      "role": "assistant",
+      "content": "Confined you might say. And the lake. I can never leave. I love the fishing. "
+    }
+  ],
+  [
+    24,
+    24,
+    {
+      "role": "user",
+      "content": "Carrot"
+    },
+    {
+      "role": "assistant",
+      "content": "ok, so where was carrots first cultivated and harvested?"
+    },
+    {
+      "role": "user",
+      "content": "It probably originated in Persia and was first cultivated for its leaves and seeds."
+    },
+    {
+      "role": "assistant",
+      "content": "Wow that really old. Maybe if my dad had eaten a lot of carrots like me he wouldn't have had a heart attack"
+    }
+  ],
+  [
+    25,
+    {
+      "role": "user",
+      "content": "I had to move into a storage locker after a break up."
+    },
+    {
+      "role": "assistant",
+      "content": "Wow, thats rough. why?"
+    },
+    {
+      "role": "user",
+      "content": "It was his apartment and I moved out of town with him. My boyfriend now is great"
+    },
+    {
+      "role": "assistant",
+      "content": "Damn, he made you sleep in a locker though wow? Im glad to hear things are better now. how long have you been together?"
+    },
+    {
+      "role": "user",
+      "content": "I didn't sleep there lol. All of my things were there. I slept in a motel some nights"
+    },
+    {
+      "role": "assistant",
+      "content": "Lol oh ok. Thats good to know."
+    },
+    {
+      "role": "user",
+      "content": "Keep trying. A good relationship will make you forget about all of the bad ones"
+    },
+    {
+      "role": "assistant",
+      "content": "That's the truth."
+    }
+  ],
+  [
+    26,
+    {
+      "role": "user",
+      "content": "I was born there!"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh nice, I have never been to Mexico, I am just here in my studio apartment!"
+    },
+    {
+      "role": "user",
+      "content": "Do you like cake?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes.. I like cake..One of my favorite cakes is butter cake"
+    },
+    {
+      "role": "user",
+      "content": "I love lemon cake!"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't like lemon desserts that much, but that sounds actually good to be honest."
+    },
+    {
+      "role": "user",
+      "content": "And tacos I love tacos "
+    },
+    {
+      "role": "assistant",
+      "content": "Those are really good. I am more of a burrito man myself."
+    }
+  ],
+  [
+    27,
+    {
+      "role": "user",
+      "content": "You could be like me and just hang out with your dogs. They have stinky breath, but other than that, they're pretty great."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I am taking my time. I have blue shoes"
+    },
+    {
+      "role": "user",
+      "content": "They sound very fancy. I don't think I've ever owned a pair of blue shoes."
+    },
+    {
+      "role": "assistant",
+      "content": "They are nice. I like the color blue very much."
+    },
+    {
+      "role": "user",
+      "content": "I used to live in a blue house. But it got destroyed by a tornado."
+    },
+    {
+      "role": "assistant",
+      "content": "oh no . i'm sorry to hear that . that is sad"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, I'm going to use the insurance money to take a trip around the world."
+    },
+    {
+      "role": "assistant",
+      "content": "Wow, happy for you. I hope you get to enjoy your trip."
+    }
+  ],
+  [
+    28,
+    {
+      "role": "user",
+      "content": "I did not know windex could be used on glasses"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh yea, it does a heck of a job."
+    },
+    {
+      "role": "user",
+      "content": "I am so glad that you told me because I do have windex, I just don't like the smell"
+    },
+    {
+      "role": "assistant",
+      "content": "Yea it has a strong chemical smell to it. "
+    },
+    {
+      "role": "user",
+      "content": "I don't think that would be the best to use for cleaning my glasses"
+    },
+    {
+      "role": "assistant",
+      "content": "Probably not the best, but it was all I could think of."
+    },
+    {
+      "role": "user",
+      "content": "I thank you for the advice though"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem, I always enjoy helping others."
+    }
+  ],
+  [
+    29,
+    {
+      "role": "user",
+      "content": "Nioce, what kind of stuff do you eat now?"
+    },
+    {
+      "role": "assistant",
+      "content": "salads i try to stay in shape and listen to music most the day. I drink a lot of water too"
+    },
+    {
+      "role": "user",
+      "content": "What kind of training do you do? weights?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm saving moeny to get a car so I don't have a gym membership. just running push ups etc"
+    },
+    {
+      "role": "user",
+      "content": "Sweet, calisthenics stuff. That's all you really need. Good for you. How long you been at it?"
+    },
+    {
+      "role": "assistant",
+      "content": "6 months. not long I guess. I feel great though"
+    },
+    {
+      "role": "user",
+      "content": "6 months is definitely long enough to get some great results. Keep it up, you're already way passed where most people give up."
+    },
+    {
+      "role": "assistant",
+      "content": "i'll totally try to keep on it. I'm determined"
+    }
+  ]
+]

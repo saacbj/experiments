@@ -1,0 +1,18 @@
+# Extensiones
+*.zip
+*.slurm
+*.ipynb
+
+# Directorios
+results/
+slurms/
+__pycache__/
+
+# Archivos específicos
+_sync_insurgente.sh
+.rsyncignore
+_models_ids.json
+prueba.py
+notas.txt
+
+# Excepciones

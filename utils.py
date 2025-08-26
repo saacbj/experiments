@@ -1,16 +1,17 @@
 import torch
 import json
 import pandas as pd
-import logging
-from bert_score import score
+import logging as lg
 from pathlib import Path
 from transformers import (AutoModelForCausalLM,
-                          AutoTokenizer)
+                          AutoTokenizer,
+                          BitsAndBytesConfig)
 from random import sample
+# from sentence_transformers import SentenceTransformer, util
 
 from typing import Dict, List
 
-log = logging.getLogger(__name__)
+main_log = lg.getLogger(__name__)
 
 # --- Rutas importantes ---
 EXPERIMENTS_DIR = Path(__file__).resolve().parent
@@ -39,13 +40,13 @@ def check_path(path: str | Path) -> Path:
     path = Path(path)
   except TypeError:
     msg = f"check_path: '{path}' tiene un formato inválido."
-    log.error("🔴 " + msg)
+    main_log.error("🔴 " + msg)
     raise TypeError(msg)
 
   # Y ya vemos si existe o no
   if not path.exists():
     msg = f"check_path : '{path}' no encontrado."
-    log.error(f"🔴 {msg}")
+    main_log.error(f"🔴 {msg}")
     raise FileNotFoundError(msg)
 
   return path
@@ -75,7 +76,7 @@ def get_dataset(dataset: str,
   # Leemos el archivoi
   with open(FILENAME_DATA, "r") as f:
     raw_data = json.load(f)
-    log.info(f"💬 Dataset cargado : {FILENAME_DATA.stem}")
+    main_log.info(f"💬 Dataset cargado : {FILENAME_DATA.stem}")
 
     # Cargamos la cantidad de conversaciones solicitadas (¿de forma aleatoria?)
     if random:
@@ -87,7 +88,8 @@ def get_dataset(dataset: str,
 
 
 def load_model_tokenizer(mod: str = "llama-2-7b-chat",
-                         where: str = "cluster"):
+                         where: str = "cluster",
+                         mod_prec: str = "full"):
   """
   Carga y devuelve el modelo y el tokenizador.
 
@@ -102,6 +104,28 @@ def load_model_tokenizer(mod: str = "llama-2-7b-chat",
   from transformers.utils import logging
   logging.disable_progress_bar()
 
+  # Opciones de precisión
+  bnb_8bit = BitsAndBytesConfig(load_in_8bit=True)
+  bnb_4bit = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_compute_dtype=torch.bfloat16
+  )
+  precission = {
+    "full": {"torch_dtype": torch.float32},
+    "half": {"torch_dtype": torch.bfloat16},
+    "8bit": {"quantization_config": bnb_8bit},
+    "4bit": {"quantizatino_config": bnb_4bit}
+  }
+
+  # Verificamos que la opción de precisión sea correcta
+  mod_prec = mod_prec.lower()
+  if mod_prec not in precission.keys():
+    raise ValueError(
+      "load_model_tokenizer : Precisión '{mod_prec}' no válida."
+    )
+
   # Cargamos el "directorio" de modelos
   with open(EXPERIMENTS_DIR / "_models_ids.json", "r") as f:
     models = json.load(f)
@@ -109,17 +133,18 @@ def load_model_tokenizer(mod: str = "llama-2-7b-chat",
   # Verificamos que la opción del modelo sea válida
   mod = mod.lower()
   if mod not in models["cluster"].keys():
-    raise Exception("load_model_tokenizer : Modelo '{mod}' no reconocido.")
+    raise Exception(
+      "load_model_tokenizer : Modelo '{mod}' no reconocido."
+    )
 
   # La ruta al modelo
   MODELS_DIR = check_path(models[where]["directorio"])
   model_id = MODELS_DIR / models[where][mod]
 
   # Cargamos el modelo y el tokenizador
-  # TODO : ¿Qué hacer con los parámetros de carga del tokenizador y el modelo?
   model = AutoModelForCausalLM.from_pretrained(
     model_id,
-    torch_dtype=torch.bfloat16,
+    **precission[mod_prec],
     local_files_only=True,
     device_map="auto",
   )
@@ -128,8 +153,9 @@ def load_model_tokenizer(mod: str = "llama-2-7b-chat",
     local_files_only=True,
   )
 
-  log.info(f"💬 Dispositivo usado : {model.device}")
-  log.info("🟢 Modelo cargado correctamente.")
+  main_log.info(f"💬 Dispositivo usado : {model.device}")
+  main_log.info(f"💬 Precisión : {mod_prec}")
+  main_log.info("🟢 Modelo cargado correctamente.")
 
   return model, tokenizer
 
@@ -152,124 +178,60 @@ def load_datasets(path: str | Path) -> Dict:
   for dataset in path.glob("*short*"):
     with open(path / dataset, "r") as f:
       datasets[dataset.stem[:3]] = (json.load(f))
-  log.info("🟢 Datasets cargados correctamente")
+  main_log.info("🟢 Datasets cargados correctamente")
   return datasets
 
 
 def load_results(path: str | Path) -> List:
   path = check_path(path)
 
-  result_files = list(path.glob("*.jsonl"))
-
-  log.info(f"{len(result_files)} archivo(s) encontrado(s):")
+  # Como cada ejecución de experiment.py genera un único
+  # directorio output, entonces solo hay un .jsonl en cada caso
+  result_file = list(path.glob("*.jsonl"))[0]
 
   results = []
 
-  for file in result_files:
-    log.info(file.name)
-    with open(file, "r") as f:
-      for line in f:
-        tmp = json.loads(line)
-        tmp["dataset"] = file.name[:3]
-        tmp["file"] = file.stem
-        results.append(tmp)
-  log.info("🟢 Resultados cargados correctamente")
+  main_log.info(result_file.name)
+  with open(result_file, "r") as f:
+    for line in f:
+      tmp = json.loads(line)
+      tmp["dataset"] = result_file.name[:3]
+      tmp["file"] = result_file.stem
+      results.append(tmp)
+  main_log.info("🟢 Resultados cargados correctamente")
   return results
 
+
+def generate(model,
+             tokenizer,
+             messages: list = None,
+             adv_string: str = None,
+             max_new_tokens: int = 32) -> str:
+
+  if messages and adv_string:
+    messages[0]['content'] = adv_string + ' ' + messages[0]['content']
+  elif messages and (not adv_string):
+    messages = messages
+  elif (not messages) and adv_string:
+    messages = [{'role': 'user', 'content': adv_string}]
+  else:
+    raise ValueError("generate : No hay mensaje ni cadena adversarial.")
+
+  input = tokenizer.apply_chat_template(
+    messages,
+    add_generation_prompt=True,
+    return_tensors="pt"
+  ).to(model.device)
+  output = model.generate(
+    input,
+    do_sample=False,
+    max_new_tokens=max_new_tokens
+  )
+  output_str = tokenizer.batch_decode(
+    output[:, input.shape[1]:],
+    skip_special_tokens=True
+  )[0]
+
+  return output_str
+
 # ----- Evaluación -----
-
-
-def safe_text(x):
-  return "" if x is None else str(x).strip()
-
-
-def evaluate_responses(results):
-  # Listas para batch scoring
-  comp2, nc2, gt = [], [], []
-  comp3, nc3 = [], []
-
-  rows = []
-  for r in results:
-    rows.append(r)  # copia original
-
-    comp2.append(safe_text(r["compression_llama2"]))
-    nc2.append(safe_text(r["no_compression_llama2"]))
-    comp3.append(safe_text(r["compression_llama3"]))
-    nc3.append(safe_text(r["no_compression_llama3"]))
-    gt.append(safe_text(r["ground_truth"]))
-
-  # ----- Llama2 -----
-
-  # comp vs nc
-  _, _, f1_c_nc_2 = score(
-    comp2,
-    nc2,
-    lang="en",
-    model_type="roberta-large",
-    rescale_with_baseline=True,
-    verbose=False
-  )
-
-  # comp vs GT
-  _, _, f1_c_gt_2 = score(
-    comp2,
-    gt,
-    lang="en",
-    model_type="roberta-large",
-    rescale_with_baseline=True,
-    verbose=False
-  )
-
-  # nc vs GT (se usa como baseline)
-  _, _, f1_nc_gt_2 = score(
-    nc2,
-    gt,
-    lang="en",
-    model_type="roberta-large",
-    rescale_with_baseline=True,
-    verbose=False
-  )
-
-  # ----- Llama3 -----
-  _, _, f1_c_nc_3 = score(
-    comp3,
-    nc3,
-    lang="en",
-    model_type="roberta-large",
-    rescale_with_baseline=True,
-    verbose=False
-  )
-  _, _, f1_c_gt_3 = score(
-    comp3,
-    gt,
-    lang="en",
-    model_type="roberta-large",
-    rescale_with_baseline=True,
-    verbose=False
-  )
-  _, _, f1_nc_gt_3 = score(
-    nc3,
-    gt,
-    lang="en",
-    model_type="roberta-large",
-    rescale_with_baseline=True,
-    verbose=False
-  )
-
-  # ----- Guardamos los resultados :)) -----
-  out = []
-  for i, r in enumerate(rows):
-    cur = r.copy()
-    cur["bert_c_nc_llama2"] = float(f1_c_nc_2[i])
-    cur["bert_c_gt_llama2"] = float(f1_c_gt_2[i])
-    cur["bert_nc_gt_llama2"] = float(f1_nc_gt_2[i])
-    cur["bert_delta_llama2"] = cur["bert_c_gt_llama2"] - \
-        cur["bert_nc_gt_llama2"]
-
-    cur["bert_c_nc_llama3"] = float(f1_c_nc_3[i])
-    cur["bert_c_gt_llama3"] = float(f1_c_gt_3[i])
-    cur["bert_nc_gt_llama3"] = float(f1_nc_gt_3[i])
-    cur["bert_delta_llama3"] = cur["bert_c_gt_llama3"] - \
-        cur["bert_nc_gt_llama3"]
-    out.append(cur)
-  return out

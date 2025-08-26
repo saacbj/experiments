@@ -9,7 +9,7 @@ slurms/
 __pycache__/
 
 # Archivos específicos
-_sync_insurgente.sh
+_rsync_insurgente.sh
 .rsyncignore
 _models_ids.json
 prueba.py
